@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>привет</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="mobile-menu">
+    <div class="mobile-header">
+        <div class="mobile-burger">
+            <div class="burger"><span></span></div>
+        </div>
+    </div>
+    <div class="mobile-link">
+        <img src="icons8-роза-64(1).png" alt="" class="logo">
+        <a href="#">Главная</a>
+        <a href="#product">Магазин</a>
+        <a href="#about">О проекте</a>
+        <a href="#contacts">Контакты</a>
+    </div>
+</div>
+  <header>
+    <p class="logo">• MarinetDypenchen •</p>
+    <nav><a href="">Каталог</a>
+      <a href="">О нас</a>
+      <a href="">Доставка</a>
+      <a href="">Контакты</a>
+      <a href="">+760254986087</a>
+    </nav>
+    <div class="card-bs" id="basket">
+      <img src="icons8-корзина-50(3).png" alt="" class="basket-img">
+      <div class="total-price"></div>
+  </div>
+  <div id="cart-items">
+      <ol id="list-item">
+      </ol>
+      <div class="total-text">
+          <p>Всего: </p>
+          <p id="total-price"></p>
+      </div>
+      <a class="btn-basket" href="pages/order/order.html" style="display: none;">Оформить заказ</a>
+  </div>
+  </header>
+  <div class="head-block">
+    <div class="filter">
+        <h1>Магазин MarinetDypenchen</h1>
+        <p>Марка самой вкусной еды в реионе</p>
+        <a href="" class="btn">Магазин</a>
+    </div>
+</div>
+
+  <div class="product">
+    <h2 class="h2">&#127848; Мороженое в ассортименте &#127848;</h2>
+    <div class="all__card">
+      <div class="card" id="card1">
+        <div class="img"
+          style="background-image: url(https://www.mochi-icecream.ru/wp-content/uploads/2017/02/morozhenoe-modzhi-klubnika-banan-300x300.jpg);">
+        </div>
+        <a href="javascript:void(0)" class="card__link">
+
+          <h2>Мороженое Моджи</h2>
+          <p>Клубника-банан</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://krasnoeibeloe.ru/upload/iblock/14c/hxyzlkso2vi7qz709wvyrogckwpmhhth/Red_icon.jpg);">
+          </div>
+          <h2>Мороженое Красное белое</h2>
+          <p>Oreo</p>
+        </a>
+      </div>
+      <div class="modal" id="modal1">
+        <div class="modal__content">
+          <img
+            src="https://www.mochi-icecream.ru/wp-content/uploads/2017/02/morozhenoe-modzhi-klubnika-banan-300x300.jpg"
+            alt="">
+          <div class="modal__title">
+            <h2>Мороженое Моджи</h2>
+            <p class="vkus">Клубника-банан</p>
+            <p class="name">Цельное коровье молоко, сливки, сахар, клубника, банан, рисовая мука, сахарный сироп,
+              кукурузный крахмал, ароматизатор клубника, ароматизатор банан</p>
+            <p class="price">900 руб.</p>
+            <select name="" id="">
+              <option value="">Выберите молоко</option>
+              <option value="">Бузулукское молоко</option>
+              <option value="">Миндальное молоко</option>
+              <option value="">Овсянное молоко</option>
+            </select>
+          </div>
+          <a href="javascript:void(0)" id="btnClose">✖</a>
+        </div>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://cdn.forbes.ru/files/profile/product_img_194.jpg__1530024199__82078.jpg);">
+          </div>
+
+
+          <h2>Мороженое 33 пингвина</h2>
+          <p>Шоколад</p>
+        </a>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://static.tildacdn.com/tild6434-3631-4738-b530-623664353634/photo.jpg);">
+          </div>
+
+
+          <h2>Мороженое Оренмилк</h2>
+          <p>Карамель</p>
+        </a>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://dreamisland.ru/upload/resize_cache/iblock/283/350_350_1/dftlx9nk5dtjcu6e0v80yu3spqac2lo3.jpg);">
+          </div>
+
+
+          <h2>Мороженое Ice cream</h2>
+          <p>черника</p>
+        </a>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/3/42/756224640288423.jpg);"></div>
+
+
+          <h2>Мороженое Лента</h2>
+          <p>milka</p>
+        </a>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/3/42/756224640288423.jpg);"></div>
+
+
+          <h2>Мороженое Лента</h2>
+          <p>milka</p>
+        </a>
+      </div>
+      <div class="card">
+
+        <a href="#" class="card__link">
+          <div class="img"
+            style="background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/3/42/756224640288423.jpg);"></div>
+
+
+          <h2>Мороженое Лента</h2>
+          <p>milka</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="swiper" id="cat">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="https://wallpapers-fenix.eu/full/210808/200456368.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://wpapers.ru/wallpapers/Food/13303/1920x1080_%D0%A6%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%BE%D0%B5.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://million-wallpapers.ru/wallpapers/4/71/16178241495344207410.jpg" alt="">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://99px.ru/sstorage/53/2018/02/tmb_219036_732563.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://kartinkin.net/pics/uploads/posts/2022-08/thumbs/1660857744_27-kartinkin-net-p-oboi-morozhenoe-krasivo-31.jpg" alt="">
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+  
+  </div>
+  <div class="about" id="about">
+    <div class="about_left">
+     <img src="https://99px.ru/sstorage/53/2019/05/mid_259814_999893.jpg" alt="">
+    </div>
+    <div class="about_right">
+      <h2>Дюпенчен</h2>
+      <p>Хорошие сотрудники ,и хороший сервиз, очень доброе отношение к посетителям,надеемся что вы оставите свой отзыв
+      </p>
+    </div>
+  </div>
+  <div class="delivery" id="delivery">
+
+    <h3>Доставка</h3>
+    <div class="delivery_body">
+      <div class="delivery_img">
+        <img src="https://sun9-72.userapi.com/impg/9xb60h5SUA53t40SOF0XEf0ImwCnypHEPhKjOA/pd8uglwfFAE.jpg?size=807x559&quality=96&sign=6955fc73417920fa544da9bf4ad188a6&c_uniq_tag=Je3jB4j0dCa_WMUuaF8aBDSDBfpMZhup6mdax60H1YY&type=album"
+          alt="">
+       
+      </div>
+      <div class="delivery_list">
+        <ul>
+          <li>&#9825; Доставка Самокат&#9825;</li>
+          <li>&#9825; Доставка Яндекс&#9825;</li>
+          <li>&#9825; Доставка Маркет Дивери&#9825;</li>
+        </ul>
+      </div>
+    </div>
+    <img src="https://img.freepik.com/premium-vector/delivery-courier-in-motorcycle_24908-75498.jpg" alt="" id="speed">
+<marquee behavior="alternate" direction="left">| Скидка 100% на самовызов></marquee> 
+
+<div class="contacts" id="contacts">
+    <div class="left">
+        <div class="left-title">
+            <h2>Свяжитесь с нами</h2>
+            <a href="tel:+7(922)-875-68-43">+7(922)-875-68-43</a>
+            <a href="mailto:oversize@mail.ru">oversize@mail.ru</a>
+        </div>
+            <div class="sosial">
+                <a target="_blank" href="https://github.com/annaevil">
+                    <img src="https://img.icons8.com/?size=512&id=12599&format=png" alt="">
+                </a>
+                <a href="">
+                    <img src="https://img.icons8.com/?size=512&id=ZeQPTbzIF4jw&format=png" alt="">
+                </a>
+                <a href="">
+                    <img class="img-size" src="https://img.icons8.com/?size=512&id=lUktdBVdL4Kb&format=png" alt="">
+                </a>
+            </div>
+       
+    </div>
+    <div class="right">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.1010405483084!2d55.1048959!3d51.767759999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x417bf0c2232ee9d1%3A0xdf9a55b4822a8283!2z0YPQuy4gOCDQnNCw0YDRgtCwLCAzNiwg0J7RgNC10L3QsdGD0YDQsywg0J7RgNC10L3QsdGD0YDQs9GB0LrQsNGPINC-0LHQuy4sIDQ2MDAwMA!5e0!3m2!1sru!2sru!4v1688629723993!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+<a href="" class="scroll"><img src="https://img.icons8.com/?size=512&id=73849&format=png" alt=""></a>
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="ljcrs.js"></script>
+</body>
+
+</html>
+
